@@ -11,6 +11,9 @@ func main() {
 	// 	fmt.Println(env)
 	// }
 
+//export GOPATH=$HOME/go
+//export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
 	uName := os.Getenv("USERNAME")
 	uDomain := os.Getenv("USERDOMAIN")
 	processorArchitecture := os.Getenv("PROCESSOR_ARCHITECTURE")

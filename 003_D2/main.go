@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	fmt.Println("Serhat Şampiyon")
+	fmt.Println(" Şampiyon")
 	a := 10
 	b := 20
 	

@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	str1 := "Serhat"
-	str2 := "Aliş"
-	str3 := "Nadir"
+	str1 := "Brad"
+	str2 := "Ali"
+	str3 := "Ayşe"
 	aNumber := 20
 	isTrue := true
 	stringLenght, _ := fmt.Println(str1,str2,str3) //hem çıktı verir, = ,le de kaç karakter olduğunu int e atama yapılır
@@ -24,9 +24,9 @@ func main() {
 
 		fmt.Println("***********************")
 
-		handsome := "Serhat"
-		charizmatic := "O da Serhat"
-		excellent := "Tabiki Serhat"
+		handsome := "Brad"
+		charizmatic := "O da Brad"
+		excellent := "Tabiki Brad"
 		age := 34.99
 		fmt.Printf("Bu alemin en yakışıklısı %v\n",handsome)
 		fmt.Printf("Bu alemin en karizması %v\n",charizmatic)
